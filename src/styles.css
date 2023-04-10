@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --red: #bf0a0a;
+    --green-light:#d6f5df;
+    --gray-light:#BDBDBD;
+    --dark-gray:#263238;
+    --black:#212121;
+}
+
+
+* {
+    margin: 0%;
+    box-sizing: content-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container{
+    margin: 0 auto;
+    max-width: 1500px;
+    outline: 0px solid white;
+}
+h1{
+    padding: 1rem 0;
+    text-align: center;
+    letter-spacing: 1px;
+    color: var(--red);
+    outline: 1px solid white;
+    font-family: 'Roboto Condensed', sans-serif;
+  
+}
+ 
