@@ -1,20 +1,50 @@
-<div class="container">
-    <h1 class="title">
-        <span>Personal Information</span>
-    </h1>
-
-    <table>
-        <tbody>
-            <tr *ngFor="let row of myData">
-               <td *ngFor="let col of row">{{col}}</td> 
-            </tr>
-        </tbody>
-    </table>
-
-    <section>
-        <p *ngFor="let sentence of aboutMe">
-            {{sentence}}
-
+<section class="slider container col-md-12 pt-lg-5 mt-lg-5" id="about">
+  <div class="row mt-5 space">
+    <div class="col-md-6 space">
+      <h2 class="cstmcolor" data-aos="zoom-in">Personal Information</h2>
+      <div class="about" data-aos="fade-up">
+        <p>
+          Hi, I am Ceren, a passionate and dedicated computer engineering
+          student currently in my third year of studies.
         </p>
-    </section>
-</div>
+        <p>
+          I have a strong academic background and a natural curiosity for
+          problem-solving, which has fueled my drive to constantly seek out new
+          knowledge and skills in the field of technology. I take pride in the
+          software projects I have built in my free time.
+        </p>
+        <p>
+          I enjoy exploring new technologies and programming languages, and I am
+          excited about the future of computer engineering. I am confident that
+          my passion for technology and my drive to succeed will make me a
+          valuable asset in the field of computer engineering.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-6 pb-5 mb-5">
+      <img
+        src="../../../assets/ceren.jpg"
+        alt="Ceren Saldıran"
+        class="image"
+        data-aos="fade-up"
+      />
+    </div>
+
+    <div class="col-md-6 pb-5 space">
+      <h2 class="cstmcolor" data-aos="zoom-in">Education</h2>
+      <div class="education">
+        <h2>Computer Programming</h2>
+        <h3>Manisa Celal Bayar University</h3>
+        <h4>2017-2019</h4>
+        <h4>3.26</h4>
+      </div>
+      <div class="education space">
+        <h2>Computer Engineering</h2>
+        <h3>Manisa Celal Bayar University</h3>
+        <h4>2019-continue</h4>
+        <h4>2.81</h4>
+      </div>
+
+    </div>
+  </div>
+</section>

@@ -6,7 +6,6 @@ interface Scripts {
 }
 export const ScriptStore: Scripts[] = [
   { name: 'custom', src: "/assets/js/custom.js" }
-
 ];
 
 declare var document: any;
