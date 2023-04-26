@@ -1,6 +1,4 @@
-*{
-    background-color: #1e1f26;
-}
+
 
 .cstmcolor{
     color: aqua;
@@ -14,6 +12,7 @@
 
 .about{
     color: white;
+    margin: auto;
 }
 .image{
     width: 300px;
@@ -21,6 +20,14 @@
     text-align: center;
     border-block-end:solid aqua;
     writing-mode: horizontal-tb;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.90) ;
+   
+    -moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.50) ;
+    -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.50) ;
+    -khtml-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.50) ; 
+
    
 }
 
@@ -28,9 +35,9 @@
 .image:hover{
     border-block-end:solid #ff0266 ;
     writing-mode: horizontal-tb;
+    
 }
 .education{
-    width: 700px;
     position: relative;
     display: grid;
     gap: 0 1.5rem;
@@ -38,6 +45,7 @@
     grid-template-rows: repeat(3,1fr);
     color: white!important;
     text-align: left;
+    margin: auto;
 }
 
 .education h4:nth-child(4){
@@ -57,8 +65,82 @@
     font-size: 24px;
 }
 .education h4:nth-child(3){
-    font-size: 16px;
+    font-size: 14px;
+    color: #cacaca;
 }
-.space{
-    margin-top: 2rem;
+
+
+ul {
+    list-style-type: none; /* Madde işaretlerini kaldır */
+    margin: 0; /* Boşlukları kaldır */
+    padding: 0; /* Boşlukları kaldır */
+    color: white;
+    text-align: left;
+    justify-content: center;
+    margin-left: 4rem;
+    
+  }
+  li {
+    margin-bottom: 10px; /* Her madde arasına boşluk ekle */
+    border-left: 1px solid #ffffff; /* Madde yanında çizgi oluştur */
+    padding-left: 20px; /* Çizgi ile metin arasına boşluk bırak */
+    position: relative; /* Pozisyonu relative olarak ayarla */
+  }
+  li:before {
+    content: ""; /* İçerik oluştur */
+    display: block; /* Blok olarak ayarla */
+    width: 10px; /* Genişliği ayarla */
+    height: 10px; /* Yüksekliği ayarla */
+    background-color: #ffffff; /* Arkaplan rengi */
+    border-radius: 50%; /* Yuvarlak kenarları ayarla */
+    position: absolute; /* Pozisyonu mutlak olarak ayarla */
+    top: 50%; /* Üst tarafın yarısında yerleştir */
+    left: -6px; /* Çizgiye göre biraz sola kaydır */
+    transform: translateY(-50%); /* Dikey konumlandırmayı ayarla */
+}
+  h2 {
+    font-size: 24px; /* Başlık font büyüklüğü */
+    margin-bottom: 20px; /* Başlık altına boşluk bırak */
+  }
+.cstmbackground{
+    background: transparent;
+    backdrop-filter: blur(15px);
+    background: rgba(37, 36, 36, 0.1);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.center{
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+.experience{
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    gap: 0 1.5rem;
+    
+    /* gap: 0 1.5rem;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: repeat(3,1fr);
+    color: white!important;
+    text-align: left;
+    margin: auto; */
+}
+.experience h2{
+    font-size: 30px;
+    color: white;
+}
+.experience h3{
+    font-size: 24px;
+
+}
+.experience h4{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #cacaca;
+}
+.experience h4:nth-child(4){
+    font-size: 14px;
 }

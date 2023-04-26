@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { EducationComponent } from './components/education/education.component';
 import { PersonalInformationComponent } from './components/personal-information/personal-information.component';
 
 
@@ -38,7 +37,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BannerComponent,
     SkillsComponent,
     ContactComponent,
-    EducationComponent,
     PersonalInformationComponent,
     WorkExperienceComponent,
     ResponsiveDirective,
